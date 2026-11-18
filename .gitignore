@@ -1,0 +1,60 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary state
+.ipynb_checkpoints/
+
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+
+# IDE and operating-system temporary files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs, caches, and temporary files
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+tmp/
+temp/
+
+# Local datasets and downloaded archives; keep explanatory README files
+/data/raw/**
+!/data/raw/README.md
+/data/processed/**
+!/data/processed/README.md
+/data/external/**
+!/data/external/README.md
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Generated model and experiment artifacts
+/artifacts/models/
+/artifacts/experiments/
+*.joblib
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.onnx
+*.h5
+*.model
+
+# Converted Word duplicates of maintained Markdown sources
+/METHODOLOGY.docx
+/RESULT_ANALYSIS.docx
+/PROVISIONAL_CONCLUSION.docx
+/FIRST_RESEARCH_PAPER_DRAFT.docx
