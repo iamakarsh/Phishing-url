@@ -36,9 +36,8 @@ B versus C is the principal incremental-value comparison. A is the full-coverage
 
 ## Resume from these files
 
-1. Read `HANDOVER.md` for exact status and next action.
-2. Read `RESEARCH_CONTEXT.md` for the project background, reviewed findings, hypotheses, methods and unresolved decisions.
-3. Inspect existing source documents and matrix before making changes: `phase1.docx`, `Capstone_Phase_2_Literature_Review.docx`, `phishing_xai_literature_review.docx`, `phishing_xai_literature_matrix.xlsx`.
-4. Update literature from the 6 October 2026 evidence cutoff through the current date, particularly the possible selective-prediction and confidence/uncertainty studies. Verify primary papers and reconcile citation errors listed in `RESEARCH_CONTEXT.md`.
+1. Read `research/planning/HANDOVER.md` for exact status and next action.
+2. Read `research/planning/RESEARCH_CONTEXT.md` for the project background, reviewed findings, hypotheses, methods and unresolved decisions.
+3. Inspect existing source documents and matrix before making changes: `research/source_documents/phase1.docx`, `research/literature/Capstone_Phase_2_Literature_Review.docx`, `research/literature/phishing_xai_literature_review.docx`, `research/literature/phishing_xai_literature_matrix.xlsx`.
+4. Update literature from the 6 October 2026 evidence cutoff through the current date, particularly the possible selective-prediction and confidence/uncertainty studies. Verify primary papers and reconcile citation errors listed in `research/planning/RESEARCH_CONTEXT.md`.
 5. Prepare a decision memo for the project lead before changing the approved research plan or beginning implementation.
-

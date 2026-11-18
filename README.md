@@ -89,7 +89,7 @@ The four files below are **preliminary research drafts**, not final experimental
 - [Updated decision memo](research/planning/Updated_Decision_Memo_2026-11-18.md)
 - [Research context](research/planning/RESEARCH_CONTEXT.md)
 - [Project handover](research/planning/HANDOVER.md)
-- [Codex project instructions](research/planning/AGENTS.md)
+- [Codex project instructions](AGENTS.md)
 
 ### Original phase documents
 

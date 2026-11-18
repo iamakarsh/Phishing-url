@@ -12,26 +12,26 @@ The reviewed literature evidence is dated through **6 October 2026** in the Phas
 
 **Current preliminary novelty verdict:** Partially studied. URL-level SHAP stability under controlled perturbations has already been evaluated. Phishing URL uncertainty-based unknown/deferral and calibrated selective prediction with shifted test data also appear in existing work. The remaining possible contribution is a matched-coverage test of the incremental value of local explanation stability over calibrated confidence-only selection. This is provisional, not an absolute novelty claim.
 
-## Existing files in the project root
+## Existing research source documents
 
 These four research files existed before this handover and were left unchanged:
 
-1. `phase1.docx` — Phase 1 problem identification and proposed project. Includes the original research question, objectives, broad methodology, tentative datasets/stack, scope, evaluation plan, and formal A/B/C comparison definitions.
-2. `Capstone_Phase_2_Literature_Review.docx` — newer Phase 2 review (evidence cutoff 6 October 2026), revised gap/question/hypotheses, proposed methodology, abbreviated literature table, and references. It adds Ghalechyan et al. (2024), OACSP-Forensics (2026 SSRN) and Kouser et al. (2026) beyond the earlier workbook.
-3. `phishing_xai_literature_review.docx` — earlier Codex-generated review with executive summary, top-15 audit, recommendation, novelty risk and search-scope limitations.
-4. `phishing_xai_literature_matrix.xlsx` — earlier Codex-generated matrix, 17 body rows and 21 columns, with Literature matrix, Categories and Novelty audit sheets. Some rows are category/summary records rather than individual papers, and many entries explicitly need verification.
+1. `research/source_documents/phase1.docx` — Phase 1 problem identification and proposed project. Includes the original research question, objectives, broad methodology, tentative datasets/stack, scope, evaluation plan, and formal A/B/C comparison definitions.
+2. `research/literature/Capstone_Phase_2_Literature_Review.docx` — newer Phase 2 review (evidence cutoff 6 October 2026), revised gap/question/hypotheses, proposed methodology, abbreviated literature table, and references. It adds Ghalechyan et al. (2024), OACSP-Forensics (2026 SSRN) and Kouser et al. (2026) beyond the earlier workbook.
+3. `research/literature/phishing_xai_literature_review.docx` — earlier Codex-generated review with executive summary, top-15 audit, recommendation, novelty risk and search-scope limitations.
+4. `research/literature/phishing_xai_literature_matrix.xlsx` — earlier Codex-generated matrix, 17 body rows and 21 columns, with Literature matrix, Categories and Novelty audit sheets. Some rows are category/summary records rather than individual papers, and many entries explicitly need verification.
 
-The three handover files being created now are `RESEARCH_CONTEXT.md`, `AGENTS.md`, and `HANDOVER.md`. No files were overwritten or deleted.
+The persistent project instructions are in the repository-root `AGENTS.md`; the research context and handover are `research/planning/RESEARCH_CONTEXT.md` and `research/planning/HANDOVER.md`. No files were overwritten or deleted.
 
 ## Work completed
 
 - Reviewed available conversation history, including the original detailed systematic-review request and its specified searches, extraction fields, novelty audit and requested outputs.
-- Inspected the project root and extracted the content of `phase1.docx`, `Capstone_Phase_2_Literature_Review.docx`, and the earlier review DOCX.
-- Read all three sheets and the study rows in `phishing_xai_literature_matrix.xlsx`.
+- Inspected the project root and extracted the content of `research/source_documents/phase1.docx`, `research/literature/Capstone_Phase_2_Literature_Review.docx`, and the earlier review DOCX.
+- Read all three sheets and the study rows in `research/literature/phishing_xai_literature_matrix.xlsx`.
 - Reconciled the two review versions and captured important papers present in Phase 2 but missing from the spreadsheet.
-- Recorded the research motivation, exact question, A/B/C comparison, hypotheses, metrics, dataset candidates, unresolved decisions, implementation status and next steps in `RESEARCH_CONTEXT.md`.
+- Recorded the research motivation, exact question, A/B/C comparison, hypotheses, metrics, dataset candidates, unresolved decisions, implementation status and next steps in `research/planning/RESEARCH_CONTEXT.md`.
 - Noted reference conflicts requiring correction/verification: Ghalechyan DOI mismatch and Buu & Cho venue mismatch. Also noted that ExpertFusion’s retrieved publication date is in the future relative to this handover and must not be counted as a currently published study without a valid earlier record.
-- Established persistent future-session rules in `AGENTS.md` against fabricated results/citations and unapproved changes.
+- Established persistent future-session rules in the repository-root `AGENTS.md` against fabricated results/citations and unapproved changes.
 
 ## Work not yet started or not confirmed
 
@@ -55,9 +55,8 @@ Also resolve these reference issues from the existing Phase 2 DOCX:
 
 ## Resume instructions for the new Codex account
 
-1. Open the project folder and read `AGENTS.md`, this file and `RESEARCH_CONTEXT.md` first.
+1. Open the project folder and read the [repository-root AGENTS.md](../../AGENTS.md), this handover, and `research/planning/RESEARCH_CONTEXT.md` first.
 2. Treat the existing DOCX/XLSX files as source material and preserve them unchanged.
 3. Continue with the immediate next task above. Keep verified publisher facts separate from claims needing full-text verification.
 4. ChatGPT should guide/approve research decisions; Codex may implement only the tasks that have been approved. Do not begin model training or modify implementation as part of the literature refresh.
 5. Before using this question in a final proposal or report, update the search and verify the gap. Do not claim absolute novelty.
-
