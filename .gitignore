@@ -54,7 +54,8 @@ temp/
 *.model
 
 # Converted Word duplicates of maintained Markdown sources
-/METHODOLOGY.docx
-/RESULT_ANALYSIS.docx
-/PROVISIONAL_CONCLUSION.docx
-/FIRST_RESEARCH_PAPER_DRAFT.docx
+/research/deliverables/METHODOLOGY.docx
+/research/deliverables/RESULT_ANALYSIS.docx
+/research/deliverables/PROVISIONAL_CONCLUSION.docx
+/research/deliverables/FIRST_RESEARCH_PAPER_DRAFT.docx
+

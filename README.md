@@ -63,7 +63,37 @@ A `requirements.txt` should be added after the team and mentor approve the imple
 
 The literature review is a targeted scoping review with a documented evidence cutoff and refresh, not a claim of exhaustive systematic coverage. The novelty assessment is provisional and search-dependent. Dataset quality, label provenance, external controls, distribution shift, semantic validity of perturbations, and explanation-stability interpretation are material limitations. Explanation stability is not evidence of faithfulness, causal relevance, model confidence, or robustness by itself. All empirical results remain pending.
 
-## Research documents
+## Documentation
 
-Research Markdown files in the repository are the maintained editable sources. The original Phase 1 and Phase 2 Word documents and literature matrix are retained as source materials. Converted Word copies of four Markdown documents are local convenience outputs and are excluded from Git to avoid duplicate maintained versions.
+The four files below are **preliminary research drafts**, not final experimental results. No capstone experiments or model training have been completed.
 
+### Preliminary research drafts
+
+- [First research paper draft](research/deliverables/FIRST_RESEARCH_PAPER_DRAFT.md)
+- [Proposed methodology](research/deliverables/METHODOLOGY.md)
+- [Result analysis plan](research/deliverables/RESULT_ANALYSIS.md)
+- [Provisional conclusion](research/deliverables/PROVISIONAL_CONCLUSION.md)
+
+### Literature review and evidence
+
+- [Phase 2 literature review](research/literature/Capstone_Phase_2_Literature_Review.docx)
+- [Phishing XAI literature review source](research/literature/phishing_xai_literature_review.docx)
+- [Phishing XAI literature matrix](research/literature/phishing_xai_literature_matrix.xlsx)
+- [Literature update for 7 October–18 November 2026](research/literature/Literature_Update_Oct07-Nov18_2026.md)
+- [Patel et al. full-paper audit](research/literature/PATEL_IJAICET_FULL_PAPER_AUDIT.md)
+
+### Planning, decisions, and handover
+
+- [Dataset and model selection audit](research/planning/DATASET_AND_MODEL_SELECTION_AUDIT.md)
+- [Final research direction and proposed methodology](research/planning/FINAL_RESEARCH_DIRECTION_AND_METHODOLOGY.md)
+- [Updated decision memo](research/planning/Updated_Decision_Memo_2026-11-18.md)
+- [Research context](research/planning/RESEARCH_CONTEXT.md)
+- [Project handover](research/planning/HANDOVER.md)
+- [Codex project instructions](research/planning/AGENTS.md)
+
+### Original phase documents
+
+- [Original Phase 1 document](research/source_documents/phase1.docx)
+- [Original Phase 2 literature review](research/literature/Capstone_Phase_2_Literature_Review.docx)
+
+The original Word and Excel research sources are retained. Markdown remains the preferred maintained format for editable research notes and deliverables. Converted Word copies of the four preliminary drafts are retained locally under `research/deliverables/` but remain excluded from Git as duplicate convenience formats.
